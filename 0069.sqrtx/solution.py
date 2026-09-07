@@ -1,0 +1,19 @@
+# Created by Jonibek-Dev at 2026/09/07 10:17
+# leetgo: 1.4.18
+# https://leetcode.com/problems/sqrtx/
+
+from typing import *
+from leetgo_py import *
+
+# @lc code=begin
+
+class Solution:
+    def mySqrt(self, x: int) -> int:
+        return int(x ** 0.5)
+
+# @lc code=end
+
+if __name__ == "__main__":
+    x: int = deserialize("int", read_line())
+    ans = Solution().mySqrt(x)
+    print("\noutput:", serialize(ans, "integer"))
