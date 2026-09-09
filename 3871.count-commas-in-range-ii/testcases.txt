@@ -1,0 +1,14 @@
+input:
+1002
+output:
+3
+
+input:
+998
+output:
+0
+
+input:
+1004590
+output:
+1008182
