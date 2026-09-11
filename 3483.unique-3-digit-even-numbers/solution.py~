@@ -1,0 +1,19 @@
+# Created by Jonibek-Dev at 2026/09/11 16:07
+# leetgo: 1.4.18
+# https://leetcode.com/problems/unique-3-digit-even-numbers/
+
+from typing import *
+from leetgo_py import *
+
+# @lc code=begin
+
+class Solution:
+    def totalNumbers(self, digits: List[int]) -> int:
+        
+
+# @lc code=end
+
+if __name__ == "__main__":
+    digits: List[int] = deserialize("List[int]", read_line())
+    ans = Solution().totalNumbers(digits)
+    print("\noutput:", serialize(ans, "integer"))
