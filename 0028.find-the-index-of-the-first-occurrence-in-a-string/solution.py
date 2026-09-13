@@ -1,0 +1,20 @@
+# Created by Jonibek-Dev at 2026/09/13 09:05
+# leetgo: 1.4.18
+# https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+
+from typing import *
+from leetgo_py import *
+
+# @lc code=begin
+
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
+        return haystack.find(needle)
+
+# @lc code=end
+
+if __name__ == "__main__":
+    haystack: str = deserialize("str", read_line())
+    needle: str = deserialize("str", read_line())
+    ans = Solution().strStr(haystack, needle)
+    print("\noutput:", serialize(ans, "integer"))
