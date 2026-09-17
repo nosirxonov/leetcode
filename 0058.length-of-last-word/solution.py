@@ -1,0 +1,19 @@
+# Created by Jonibek-Dev at 2026/09/17 08:45
+# leetgo: 1.4.18
+# https://leetcode.com/problems/length-of-last-word/
+
+from typing import *
+from leetgo_py import *
+
+# @lc code=begin
+
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        return len(s.split()[-1])
+
+# @lc code=end
+
+if __name__ == "__main__":
+    s: str = deserialize("str", read_line())
+    ans = Solution().lengthOfLastWord(s)
+    print("\noutput:", serialize(ans, "integer"))
