@@ -1,0 +1,22 @@
+# Created by Jonibek-Dev at 2026/09/18 17:41
+# leetgo: 1.4.18
+# https://leetcode.com/problems/plus-one/
+
+from typing import *
+from leetgo_py import *
+
+# @lc code=begin
+
+class Solution:
+    def plusOne(self, digits: list[int]) -> list[int]:
+        num = "".join(map(str, digits))
+        num = int(num) + 1
+        num_int = [int(digit) for digit in str(num)]
+        return num_int
+
+# @lc code=end
+
+if __name__ == "__main__":
+    digits: List[int] = deserialize("List[int]", read_line())
+    ans = Solution().plusOne(digits)
+    print("\noutput:", serialize(ans, "integer[]"))
