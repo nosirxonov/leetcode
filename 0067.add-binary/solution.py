@@ -1,0 +1,20 @@
+# Created by Jonibek-Dev at 2026/09/19 09:28
+# leetgo: 1.4.18
+# https://leetcode.com/problems/add-binary/
+
+from typing import *
+from leetgo_py import *
+
+# @lc code=begin
+
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        return bin(int(a, 2) + int(b, 2))[2:]
+
+# @lc code=end
+
+if __name__ == "__main__":
+    a: str = deserialize("str", read_line())
+    b: str = deserialize("str", read_line())
+    ans = Solution().addBinary(a, b)
+    print("\noutput:", serialize(ans, "string"))
