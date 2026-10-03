@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+# ====================================================================
+# Masala nomi    : 202. Happy Number
+# Masala havolasi: https://leetcode.com/problems/happy-number/description/
+# Platforma      : LeetCode (Easy)
+# Metod          : Solution.isHappy(self, n: int) -> bool
+# Tagiplar        : Hash Table, Math, Two Pointers, Floyd's Cycle Finding Algorithm
+# Namuna testlar  : tests/ papkasida (python ../cf.py test)
+# ====================================================================
+
+class Solution:
+    def isHappy(self, n: int) -> bool:
+        pass

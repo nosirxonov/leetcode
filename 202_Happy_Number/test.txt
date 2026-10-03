@@ -1,0 +1,11 @@
+=== Test 1 ===
+Input:
+n = 19
+Output:
+true
+
+=== Test 2 ===
+Input:
+n = 2
+Output:
+false
