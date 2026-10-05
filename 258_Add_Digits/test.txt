@@ -1,0 +1,11 @@
+=== Test 1 ===
+Input:
+num = 38
+Output:
+2
+
+=== Test 2 ===
+Input:
+num = 0
+Output:
+0
