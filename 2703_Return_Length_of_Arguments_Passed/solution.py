@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+# ====================================================================
+# Masala nomi    : 2703. Return Length of Arguments Passed
+# Masala havolasi: https://leetcode.com/problems/return-length-of-arguments-passed/
+# Platforma      : LeetCode (Easy)
+# Metod          : Solution.argumentsLength(self, args) -> integer
+# Namuna testlar  : tests/ papkasida (python ../cf.py test)
+# ====================================================================
+
+class Solution:
+    def argumentsLength(self, args) -> integer:
+        return len(args)
